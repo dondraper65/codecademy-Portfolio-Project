@@ -5,6 +5,14 @@ const greeting = (name) =>{
 }
 
 const mood =  (num) => {
+    console.log(`%c
+     ___  ___   _____   _____   _____  
+    /   |/   | /  _  \\ /  _  \\ |  _  \\ 
+   / /|   /| | | | | | | | | | | | | | 
+  / / |__/ | | | | | | | | | | | | | | 
+ / /       | | | |_| | | |_| | | |_| | 
+/_/        |_| \\_____/ \\_____/ |_____/                               
+       `, `font-family: monospace`);
     console.log("Mood Horoscope: ")
     switch (num){
         case 0:
@@ -24,7 +32,16 @@ const mood =  (num) => {
 }
 
 const work = (num) =>{
+    console.log(`%c
+     _          __  _____   _____    _   _   
+    | |        / / /  _  \\ |  _  \\  | | / /  
+    | |  __   / /  | | | | | |_| |  | |/ /   
+    | | /  | / /   | | | | |  _  /  | |\\ \\   
+    | |/   |/ /    | |_| | | | \\ \\  | | \\ \\  
+    |___/|___/     \\_____/ |_|  \\_\\ |_|  \\_\\ 
+    `, `font-family: monospace`);
     console.log("Work Horoscope: ")
+
     switch (num){
         case 0:
             console.log("Eventful work day. Chances of promotion for working personnel low. Will get interesting business opportunities");
@@ -43,7 +60,17 @@ const work = (num) =>{
 }
 
 const love = (num) =>{
-    console.log("Love Horoscope: ")
+    
+    console.log(`%c
+ _____   _____  __    __ 
+/  ___/ | ____| \\ \\  / / 
+| |___  | |__    \\ \\/ /  
+\\___  \\ |  __|    }  {   
+ ___| | | |___   / /\\ \\  
+/_____/ |_____| /_/  \\_\\ 
+`, `font-family: monospace`);
+console.log("Love Horoscope: ")
+
     switch (num){
         case 0:
             console.log("Multiple Orgasms destined. Try new positions.");
@@ -65,5 +92,6 @@ greeting(name);
 mood(Math.floor(Math.random()*4));
 work(Math.floor(Math.random()*4));
 love(Math.floor(Math.random()*4));
+
 
 
