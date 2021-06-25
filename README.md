@@ -1,5 +1,7 @@
 # codecademy-Portfolio-Project (Daily Horoscope Generator)
 
+# *NSFW WARNING*
+
 ## contents
   1. [Introduction](#introduction)
   2. [Process](#process)
