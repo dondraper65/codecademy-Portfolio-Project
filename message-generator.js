@@ -32,3 +32,18 @@ const work = (num) =>{
     }
     console.log("");
 }
+
+const love = (num) =>{
+    console.log("Love Horoscope: ")
+    switch (num){
+        case 0:
+            console.log("Multiple Orgasms destined. Try new positions.");
+        case 1:
+            console.log("Don't be too passionate while fucking, it might break your heart in the future. Make sure you use a condom.");
+        case 2:
+            console.log("Chances of a threesome are high. Keep lookin around. Shave your pubes and groom your dick/pussy. YOU GETTIN LAID TONIGHT!!!!");
+        default:
+            console.log("VIRGIN!!!!!!")
+    }
+    console.log("");  
+}
