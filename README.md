@@ -15,4 +15,15 @@ This was achieved by creating 3 functions which generate random strings describi
 *Javascript*
 ## Decorations
 We used ASCII arts to make the message more visually appealing, as nobody wants a dull undecorated horoscope (except accountants probably LOL!)
+Implemented ASCII values and logged them to the console using the following example syntax.
 
+``` JavaScript
+    console.log(`%c
+     ___  ___   _____   _____   _____  
+    /   |/   | /  _  \\ /  _  \\ |  _  \\ 
+   / /|   /| | | | | | | | | | | | | | 
+  / / |__/ | | | | | | | | | | | | | | 
+ / /       | | | |_| | | |_| | | |_| | 
+/_/        |_| \\_____/ \\_____/ |_____/                               
+       `, `font-family: monospace`);
+```
