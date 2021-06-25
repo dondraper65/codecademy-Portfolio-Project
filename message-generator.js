@@ -22,7 +22,7 @@ const mood =  (num) => {
             console.log("Angry mood ThunderClouds lurking. Meditate and try to stay calm in situations.");
             break;
         case 2:
-            console.log("Horny mood. control your dick/pussy. Don't let it affect work.");
+            console.log("Horny mood. control your senses. Don't let it affect your work.");
             break;
         default:
             console.log("Unpredicatable mood.")
@@ -76,13 +76,13 @@ console.log("Love Horoscope: ")
             console.log("Multiple Orgasms destined. Try new positions.");
             break;
         case 1:
-            console.log("Don't be too passionate while fucking, it might break your heart in the future. Make sure you use a condom.");
+            console.log("Don't be too carried away after sex, it might break your heart in the future.");
             break;
         case 2:
-            console.log("Chances of a threesome are high. Keep lookin around. Shave your pubes and groom your dick/pussy. YOU GETTIN LAID TONIGHT!!!!");
+            console.log("Chances of a threesome are high. Keep lookin around.");
             break;
         default:
-            console.log("VIRGIN!!!!!!");
+            console.log("Too bad! No chances of getting laid today");
             break;
     }
     console.log("");  
