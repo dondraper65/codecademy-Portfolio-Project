@@ -18,4 +18,17 @@ const mood =  (num) => {
     console.log("");
 }
 
-
+const work = (num) =>{
+    console.log("Work Horoscope: ")
+    switch (num){
+        case 0:
+            console.log("Eventful work day. Chances of promotion for working personnel low. Will get interesting business opportunities");
+        case 1:
+            console.log("Think twice before investing in any venture. Boss will be unhappy. Colleagues will stand up for you.");
+        case 2:
+            console.log("Will have a chance to lead a project which will be important for the future of your career. Business will be boomin.");
+        default:
+            console.log("Normal work day.")
+    }
+    console.log("");
+}
